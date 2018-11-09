@@ -1,145 +1,418 @@
 <!doctype html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>On the Edge of Leadership</title>
+	<title>On the Edge of Leadership</title>
 
-		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/night.css">
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="css/theme/night.css">
 
-		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="lib/css/zenburn.css">
+	<!-- Theme used for syntax highlighting of code -->
+	<link rel="stylesheet" href="lib/css/zenburn.css">
 
-		<!-- Printing and PDF exports -->
-		<script>
-			var link = document.createElement( 'link' );
-			link.rel = 'stylesheet';
-			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-			document.getElementsByTagName( 'head' )[0].appendChild( link );
-		</script>
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section data-background-image="media/dean-rose-602678-unsplash.jpg">
+	<!-- Printing and PDF exports -->
+	<script>
+		var link = document.createElement( 'link' );
+		link.rel = 'stylesheet';
+		link.type = 'text/css';
+		link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+		document.getElementsByTagName( 'head' )[0].appendChild( link );
+	</script>
+</head>
+<body>
+	<div class="reveal">
+		<div class="slides">
 
-					<h1 style="font-size: 2.42em; color: black;">On the Edge of Leadership</h1>
+			<!-- ME -->
 
-					<ul class="fragment" style="padding-top: 160px;">
-						<li>twitter: <a style="color: antiquewhite;" href="https://twitter.com/MislavCimpersak">@MislavCimpersak</a></li>
-						<li>github: <a style="color: antiquewhite;" href="https://github.com/mislavcimpersak">github.com/mislavcimpersak</a></li>
-					</ul>
+			<section data-background-image="media/dean-rose-602678-unsplash.jpg">
 
+				<h1 style="font-size: 2.42em; color: black;">On the Edge of Leadership</h1>
+
+				<ul class="fragment" style="padding-top: 160px;">
+					<li>twitter: <a style="color: antiquewhite;" href="https://twitter.com/MislavCimpersak">@MislavCimpersak</a></li>
+					<li>github: <a style="color: antiquewhite;" href="https://github.com/mislavcimpersak">github.com/mislavcimpersak</a></li>
+				</ul>
+
+				<aside class="notes" data-markdown>
+					- Have you ever wondered what happens with extra eager developers that poke their nose into everything?
+					- Who always provoke and question the management and their decisions?
+					- Who ask the questions other team members don't dare to ask?
+					- And who are surprisingly sincerely interested in the well being of the company?
+					- Apparently, they stop doing development and they get promoted to management positions.
+					- (reveal name)
+					- Hi! I'm Mislav.
+					- Developer / team lead / gun for hire.
+					- I'm professionaly in the IT industry for about 10 years.
+					- During that period I've went through several companies and even more teams.
+					- I came here to talk about team leadership.
+					- Position I was proud to hold in several of those teams.
+				</aside>
+			</section>
+
+			<section data-background-image="media/yuki-eyre-379094-unsplash.jpg">
+				<aside class="notes" data-markdown>
+					- And to admit that most of the time I was lost.
+					- Most of the time I had no idea what I was doing.
+				</aside>
+			</section>
+
+			<section data-background-image="media/michael-mouritz-521372-unsplash.jpg">
+				<aside class="notes" data-markdown>
+					- I always try to face my fears.
+					- So every time I get a chance to do so, to look fear in the face, I jump in on that.
+					- And such was this chance, given to me by the conference organizers, to have this talk.
+					- Just one more thing I know nothing about in a long line of me doing the shruggy. ¯\_(ツ)_/¯
+				</aside>
+			</section>
+
+			<section>
+				<h2 style="font-size: 2.7em;">¯\_(ツ)_/¯</h2>
+			</section>
+
+			<section data-background-image="media/annie-spratt-746981-unsplash.jpg">
+				<aside class="notes" data-markdown>
+					- With zero formal training, relying on my intuition and various random pieces of advice I picked up from people smarter than me
+					- I've more or less successfully lead my teams to their goals.
+					- On that path, I’ve learned tremendously, improved myself and hopefully, my teams.
+					- I've would like to share what worked and what didn’t, my emotions, my regrets, my fails, and my wins.
+				</aside>
+			</section>
+
+			<!-- EDGE OF INCOMPETENCE -->
+
+			<section>
+				<h2>Edge of Incompetence</h2>
+				<br>
+				<h3 class="fragment" data-fragment-index="1">==</h3>
+				<br>
+				<h2 class="fragment" data-fragment-index="1">The Peter Principle</h2>
+
+				<aside class="notes" data-markdown>
+					- Going to make some segway into roles.
+					- For each role probably going to tell a short story.
+					- First one being developer.
+				</aside>
+			</section>
+
+			<!-- DEVELOPER -->
+
+			<section data-background-image="media/max-nelson-492729-unsplash.jpg">
+				<h2 style="color: black; margin-top: -80px;">Developer</h2>
+
+				<aside class="notes" data-markdown>
+					- When working with one team I struck a deal with management to be a Lead developer and lead a small team of about 6 devs.
+					- Original plan was 20% of my time I'll do team management work, while the other 80% dev.
+					- It kind of sounded dreamy for me.
+					- First month and a half: 4 lines of code.
+					- It was 8 am, a bug report came in, the rest of my team was still asleep and I was soooo happy to actually write something useful and tangible for a change.
+					- Be aware what you are getting your self in to.
+					- The bigger the team, the bigger the project, less time you're going to spend actually writting code.
+					- You need to realise:
+				</aside>
+			</section>
+
+			<section data-background-image="media/david-clode-791880-unsplash.jpg">
+				<aside class="notes" data-markdown>
+					- You are not a code monkey anymore.
+				</aside>
+			</section>
+
+			<section data-background-image="media/joel-filipe-166058-unsplash.jpg">
+				<aside class="notes" data-markdown>
+					- You are the architect, the decision maker, the organizer and more than anything else, the reviewer.
+					- You are placed in this position to produce more code than ever, just not by yourself.
+
+					- So if you are not creating this code, who is? This of course leads us to hiring.
+				</aside>
+			</section>
+
+			<!-- HIRING/INTERVIEWING -->
+
+			<section data-background-image="">
+				<h2>Hiring</h2>
+				<aside class="notes" data-markdown>
+					- For the first interview in which I sat as the interviewer I explicitly asked to be included.
+					- Soon, my wish was granted.
+				</aside>
+			</section>
+
+			<section data-background-image="">
+				<aside class="notes" data-markdown>
+					- I don't know who sweated more.
+					- The developer looking for a job or me.
+					- I was worrying not to look like a total tool in front of the candidate.
+					- Probably spent more time thinking how clever do I sound instead of how smart is the candidate.
+					- In my head it was a mess.
+				</aside>
+			</section>
+
+			<section data-background-image="">
+				<aside class="notes" data-markdown>
+					- But after a while (few interviews unfortunately) I realized: I don't need to sound like the smartest person in the room.
+					- The candidate does, so why not help them with that.
+					- I became the good cop.
+					- Nodding along with their explanations, saying stupid jokes or even just going "me too" to their stories.
+					- I tried to make this formal talk as pleasant and informal as I could.
+					- By reducing the pressure I got a more honest face of the candidate and his way of thinking.
+
+				</aside>
+			</section>
+
+			<section data-background-image="">
+				<aside class="notes" data-markdown>
+					- I have one golden rule that I established few years ago and still hold as the most important one:
+					- Tech can be tough, but I can't teach you not to be ass.
+					- (picture of a donkey)
+				</aside>
+			</section>
+
+			<section data-background-image="">
+				<aside class="notes" data-markdown>
+					- I'm not very good at reading people.
+					- Interviewing for me, but I believe for most of the people, just doesn’t come naturally.
+					- It’s a skill that improves with practice.
+					- I spend a lot of time preparing for the interviews.
+					- I have notes with questions, with possible pathways that can lead to other questions.
+					- All that to have smooth back-and-forth flow of conversation.
+
+					- You assume that the candidate took some time to prepare, so it's only polite to do the same.
+
+					- And so you hire someone, they are great, and then they are not.
+				</aside>
+			</section>
+
+			<!-- TERMINATION -->
+
+			<section data-background-image="">
+				<h2>Termination</h2>
+				<aside class="notes" data-markdown>
+					- This is the other side of the coin.
+					- A lot of people are not talking about it.
+					- And that's probably it's the hardest thing to do.
+					- Luckily, I only had to do it once.
+					- I don't even know if there is a way to do it gently.
+					- This should be a last resort solution.
+					- Make sure that you've exhausted all options before this.
+					- Give your team members regular reviews, if necessary give them negative reviews.
+					- After you've pulled the trigger,
+					- Ask yourself, was there something I could have done to prevent this?
+					- And explain to the folks still on the team why it came to this.
+					- Don't wait too long to do it, this is a big thing.
+					- Such info needs to come from you.
+					- If you wait too long it will come from the other side of that dialogue and you don't want that.
+				</aside>
+			</section>
+
+			<section data-background-image="">
+				<aside class="notes" data-markdown>
+					- Paranoid bonus tip: have a quick way to rotate your security keys. Just in case.
+				</aside>
+			</section>
+
+			<!-- DELEGATION -->
+
+			<section data-background-image="">
+				<h2>Delegation/Team</h2>
+				<aside class="notes" data-markdown>
+					- You are one, but there are many people in your team.
+					- Listen to your teammates, ask them on what do they want to work on, accomodate them if you can, if not, give a clear explanation why.
+					- Devs are often quiet;
+					- So get to know each team member and their streghts and weekneses and give out tasks accordingly.
+					- But work on your 6th sense and move people into new directions.
+
+				</aside>
+			</section>
+
+			<section data-background-image="">
+				<aside class="notes" data-markdown>
+					- Try to read you team's inner dinamics.
+					- See who works best with whom.
+					- Fortify existing relationships, encourage new ones.
+					- That can only benefit them and the company as a whole.
+				</aside>
+			</section>
+
+			<section data-background-image="">
+				<aside class="notes" data-markdown>
+					- In extreme situations - you're the one who's only task is triage!
+					- No time for discussions, you need to know on a spot who can and will deliver the solution.
+				</aside>
+			</section>
+
+			<section data-background-image="">
+					<img src="media/this_is_fine.jpg" alt="">
 					<aside class="notes" data-markdown>
-						- Have you ever wondered what happens with extra eager developers that poke their nose into everything?
-						- Who always provoke and question the management and their decisions?
-						- Who ask the questions other team members don't dare to ask?
-						- And who are surprisingly sincerely interested in the well being of the company?
-						- Apparently, they stop doing development and they get promoted to management positions.
-						- (reveal name)
-						- Hi! I'm Mislav.
-						- Developer / team lead / gun for hire.
-						- I'm professionaly in the IT industry for about 10 years.
-						- During that period I've went through several companies and even more teams.
-						- I came here to talk about team leadership.
-						- Position I was proud to hold in several of those teams.
+						- Don't ping them non-stop, don't throw new logs to the trash fire that is happening.
+						- Let them do what they do best:
+						- Solve problems.
 					</aside>
 				</section>
 
-				<section data-background-image="media/yuki-eyre-379094-unsplash.jpg">
-					<aside class="notes" data-markdown>
-						- And to admit that most of the time I was lost.
-						- Most of the time I had no idea what I was doing.
-					</aside>
-				</section>
+			<section data-background-image="">
+				<aside class="notes" data-markdown>
+					- For me, either everyday delegation or delegation in emergency creates a really weird feeling.
+					- I'm in control, but at the same time I control nothing.
+					- I'm responsible, but I don't directly do anything tangible.
+					- Success of my job is solely based on the success of my teammates.
+					- That can be scary.
+				</aside>
+			</section>
 
-				<section data-background-image="media/michael-mouritz-521372-unsplash.jpg">
-					<aside class="notes" data-markdown>
-						- I always try to face my fears.
-						- So every time I get a chance to do so, to look fear in the face, I jump in on that.
-						- And such was this chance, given to me by the conference organizers, to have this talk.
-						- Just one more thing I know nothing about in a long line of me doing the shruggy. ¯\_(ツ)_/¯
-					</aside>
-				</section>
+			<section data-background-image="">
+				<h3>People</h3>
+				<h3>are</h3>
+				<h3>the worst</h3>
+				<aside class="notes" data-markdown>
+					- I sometime find myself thinking:
+					- "People are the worst" (slide text)
+					- Which is a horrible notion if you manage people.
+					- Unfortuantely, I kind of have a feeling you all know what I mean by that.
+				</aside>
+			</section>
 
-				<section>
-					<h2 style="font-size: 2.7em;">¯\_(ツ)_/¯</h2>
-				</section>
+			<section data-background-image="">
+				<h3>People</h3>
+				<h3>are</h3>
+				<h3>the best</h3>
+				<aside class="notes" data-markdown>
+					- But with a good team, a team you trust, another thought comes to mind:
+					- "People are the best" (slide text)
+					- People love to shine, people love being heros, people want to do work they can be proud of. (superhero image)
+					- Just clear the space in front of them, and let them work. (open road image)
+					- Just:
+					- Trust you team.
+				</aside>
+			</section>
 
-				<section data-background-image="media/annie-spratt-746981-unsplash.jpg">
-					<aside class="notes" data-markdown>
-						- With zero formal training, relying on my intuition and various random pieces of advice I picked up from people smarter than me
-						- I've more or less successfully lead my teams to their goals.
-						- On that path, I’ve learned tremendously, improved myself and hopefully, my teams.
-						- I've would like to share what worked and what didn’t, my emotions, my regrets, my fails, and my wins.
-					</aside>
-				</section>
+			<!-- COMMUNICATION -->
 
-				<section>
-					<h2>Edge of Incompetence</h2>
-					<br>
-					<h3 class="fragment" data-fragment-index="1">==</h3>
-					<br>
-					<h2 class="fragment" data-fragment-index="1">The Peter Principle</h2>
+			<section data-background-image="">
+				<h2>Communication</h2>
+				<aside class="notes" data-markdown>
+					- And that leads us to communication.
+					- For which:
+					- you are always available.
+					- team is not, and that's ok.
+				</aside>
+			</section>
 
-					<aside class="notes" data-markdown>
-						- Going to make some segway into roles.
-						- For each role probably going to tell a short story.
-						- First one being developer.
-					</aside>
-				</section>
+			<section data-background-image="">
+				<aside class="notes" data-markdown>
+					- Have regular 1-on-1s
+					- you can have them scheduled or not.
+					- in my experience, scheduled works better,
+					- it leaves time for team member to prepare.
+					- Just don't do it too often of keep it running for too long.
+					- And if you want to earn your team members trust, be prepared to open your self.
+					- These 1-on-1s work both ways.
+					- Be honest.
+				</aside>
+			</section>
 
-				<section data-background-image="media/max-nelson-492729-unsplash.jpg">
-					<h2 style="color: black; margin-top: -80px;">Developer</h2>
+			<section data-background-image="">
+				<aside class="notes" data-markdown>
+					- With group meetings,
+					- Learn how to lead and take control of them.
+					- Capture meeting decisions and share them afterwards as a TLDR; doc.
+				</aside>
+			</section>
 
-					<aside class="notes" data-markdown>
-						- When working with one team I struck a deal with management to be a Lead developer and lead a small team of about 6 devs.
-						- Original plan was 20% of my time I'll do team management work, while the other 80% dev.
-						- It kind of sounded dreamy for me.
-						- First month and a half: 4 lines of code.
-						- It was 8 am, a bug report came in, the rest of my team was still asleep and I was soooo happy to actually write something useful and tangible for a change.
-						- Be aware what you are getting your self in to.
-						- The bigger the team, the bigger the project, less time you're going to spend actually writting code.
-						- You need to realise:
-					</aside>
-				</section>
+			<section data-background-image="">
+				<aside class="notes" data-markdown>
+					- I have a nice bonus suggestion for you I've picked up from a client:
+					- start a group meeting with a random question, but totally random.
+					- it can span from
+					- which person do you admire?
+					- can you tell some random piece of information that you recently learned that surprised you?
+					- to...
+					- what's the weirdest thing in your fridge?
+					- it's an ice breaker, somebody will always say something funny, and all of the sudden you are all talking and sharing stuff around the same topic.
+					- See, out-of-box cohesion!
 
-				<section data-background-image="media/david-clode-791880-unsplash.jpg">
-					<aside class="notes" data-markdown>
-						- You are not a code monkey anymore.
-					</aside>
-				</section>
+				</aside>
+			</section>
 
-				<section data-background-image="media/joel-filipe-166058-unsplash.jpg">
-					<aside class="notes" data-markdown>
-						- You are the architect, the decision maker, the organizer and more than anything else, the reviewer.
-						- You are placed in this position to produce more code than ever, just not by yourself.
-					</aside>
-				</section>
-			</div>
+			<!-- CLOSING -->
+
+			<section data-background-image="">
+				<h2 style="color: black; margin-top: -80px;">Closing</h2>
+				<aside class="notes" data-markdown>
+
+				</aside>
+			</section>
+
+			<section data-background-image="">
+				<h3>Learn</h3>
+				<aside class="notes" data-markdown>
+					- As with you previous dev role, you need to continue learning new skills.
+					- If you got it this far, you were probably good at that, so use those old learning skills to pick up this hot potato.
+				</aside>
+			</section>
+
+			<section data-background-image="">
+				<h3>Trust</h3>
+				<aside class="notes" data-markdown>
+					- The same way you need to trust people, people need to trust you.
+				</aside>
+			</section>
+
+			<section data-background-image="">
+				<h3>Protect</h3>
+				<aside class="notes" data-markdown>
+					- Often you are the one that's protecting the team from "higher forces" and if you are doing a good job of making your team feel safe, you will earn team's trust.
+					- So continue asking those questions people don't dare to ask.
+				</aside>
+			</section>
+
+			<section data-background-image="">
+				<h3>Set to win</h3>
+				<aside class="notes" data-markdown>
+					- Prepare the ground for you team.
+					- Give them everything they need to succeed.
+				</aside>
+			</section>
+
+			<section data-background-image="">
+				<h3>Open discussions</h3>
+				<aside class="notes" data-markdown>
+					- Don't avoid hard conversations and decisions.
+					- Be open about them with the team.
+					- If you can, democratize decision making.
+					- Make everybody feel included.
+					- Encourage discussion.
+				</aside>
+			</section>
+
+			<section data-background-image="">
+				<h2></h2>
+				<aside class="notes" data-markdown>
+					- But know when to end.
+				</aside>
+			</section>
 		</div>
+	</div>
 
-		<script src="lib/js/head.min.js"></script>
-		<script src="js/reveal.js"></script>
+	<script src="lib/js/head.min.js"></script>
+	<script src="js/reveal.js"></script>
 
-		<script>
-			// More info about config & dependencies:
-			// - https://github.com/hakimel/reveal.js#configuration
-			// - https://github.com/hakimel/reveal.js#dependencies
-			Reveal.initialize({
-				history: true,
-				transition: 'fade',
+	<script>
+		// More info about config & dependencies:
+		// - https://github.com/hakimel/reveal.js#configuration
+		// - https://github.com/hakimel/reveal.js#dependencies
+		Reveal.initialize({
+			history: true,
+			transition: 'fade',
 
-				dependencies: [
-					{ src: 'plugin/markdown/marked.js' },
-					{ src: 'plugin/markdown/markdown.js' },
-					{ src: 'plugin/notes/notes.js', async: true },
-					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
-				]
-			});
-		</script>
-	</body>
+			dependencies: [
+			{ src: 'plugin/markdown/marked.js' },
+			{ src: 'plugin/markdown/markdown.js' },
+			{ src: 'plugin/notes/notes.js', async: true },
+			{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+			]
+		});
+	</script>
+</body>
 </html>
