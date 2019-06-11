@@ -85,7 +85,9 @@
 					- I always try to face my fears.
 					- So every time I get a chance to do so, to look fear in the face, I jump in on that.
 					- And such was this chance, given to me by the conference organizers, to have this talk.
-					- Just one more thing I know nothing about in a long line of me doing the shruggy.
+					- And yes, I had this talk once or twice already, but it's scary every single time.
+					- I bet that most of the presenters would agree.
+					- For me, this is just one more thing I know nothing about in a long line of me doing the shruggy.
 				</aside>
 			</section>
 
@@ -163,9 +165,216 @@
 			<section data-background-image="media/joel-filipe-166058-unsplash.jpg">
 				<aside class="notes" data-markdown>
 					- You are the architect, the decision maker, the organizer and more than anything else, the reviewer.
-					- You are placed in this position to produce more code than ever, just not by yourself.
+				</aside>
+			</section>
 
-					- So if you are not creating this code, who is?
+			<section data-background-image="media/hans-peter-gauster-252751-unsplash.jpg">
+				<aside class="notes" data-markdown>
+					- I want to pause here and talk about the reviewer job a bit.
+					- It's often the ony job folks in theory want to do,
+					- but end up feeling pressured into and pressured to do it on a tight schedule.
+					- Don't underestimate this part of your job and try not to lose it.
+					- Code review is an excellent process.
+				</aside>
+			</section>
+
+			<section data-background-image="media/samuel-zeller-360588-unsplash.jpg">
+				<aside class="notes" data-markdown>
+					- First, you can look at it from a purely selfish perspective:
+					- you're going to learn something new and you will be up to date with the codebase.
+					- Really take some time aside and read the code changes.
+					- The best pull requests are the ones that can are self-contained, linked to a correct issue and described what is done and why is it done.
+				</aside>
+			</section>
+
+			<section data-background-image="media/frida-bredesen-665377-unsplash.jpg">
+				<aside class="notes" data-markdown>
+					- As all of you know: they are rare.
+					- If your team is avoiding reviews, take some time and make an examplatory PR.
+					- Be the change you want to see.
+					- Create a pull request you would like to review - the perfect PR.
+					- And assign it to the biggest code review hater :D
+					- Kidding here :D
+				</aside>
+			</section>
+
+			<section data-background-image="media/matt-hoffman-277877-unsplash.jpg">
+				<aside class="notes" data-markdown>
+					- I admit, writing very very descriptive PRs came to me in the recent years
+					- and it proved to be very valuable skill when working with remote teams.
+					- You kind of lose the luxury of walking across the office to your collegue that will be doing the review or has opened a PR.
+					- But on-location teams will appreciate this as well.
+					- Nobody likes being interupted.
+				</aside>
+			</section>
+
+			<section data-background-image="media/jacek-dylag-680347-unsplash.jpg">
+				<aside class="notes" data-markdown>
+					- Improving the quality of the project is the most obvious benefit.
+					- Take time and pull the branch locally and run the code, run the tests.
+					- Run the database migrations and revert them.
+					- The last one is especially scary?
+					- Yeah, I know. It is.
+				</aside>
+			</section>
+
+			<section data-background-image="media/sarah-kilian-1529487-unsplash.jpg">
+				<aside class="notes" data-markdown>
+					- It's not once that I have messed up my own local environment because of other's code.
+					- But I caught something before it landed in production.
+					- And the dev was actually happy and checked it them self next time.
+					- It's probably cheaper to break my local env for an hour, than the production for mere 5 minutes.
+				</aside>
+			</section>
+
+			<section data-background-image="media/jon-tyson-420512-unsplash.jpg">
+				<aside class="notes" data-markdown>
+					- Provide feedback to the original coder.
+					- Focus on stuff that the machines are bad at.
+					- Like readability of the code,
+					- weird variables and function names that don't match what is actually happening,
+					- clever hacks that even the author won't be able to decipher in a week.
+				</aside>
+			</section>
+
+			<section data-background-image="media/djim-loic-38013-unsplash.jpg">
+				<aside class="notes" data-markdown>
+					- Keep an eye on some shady stuff too.
+					- You know what it is, you know ;)
+
+					- I once reviewed a PR where somewhere deep deep within few hundreads lines of tests there was a "skip test" decorator quietly placed.
+				</aside>
+			</section>
+
+			<section data-background-image="media/ohyou.png" data-background-size="contain">
+				<aside class="notes" data-markdown>
+					- I was just like "oh you!"
+					- The funny thing is that this could have been caught by a tool that would check for a decrease in code covearge.
+					- Unfortunately it wasn't implemented and I had to write an awkward comment.
+				</aside>
+			</section>
+
+			<section data-background-image="media/magdalena-kula-manchee-1078222-unsplash.jpg" data-background-size="contain">
+				<aside class="notes" data-markdown>
+					- In general, when giving feedback, don't nitpick.
+					- Today, all the discussions about tabs and spaces and similar stuff should be decided once and automated.
+				</aside>
+			</section>
+
+			<section data-background-image="media/nicolas-thomas-533958-unsplash.jpg">
+				<h3>pre-commit</h3>
+				<aside class="notes" data-markdown>
+					- For the past year and a half I'm using pre-commit checks.
+					- And I'm checking on wonderfull things like:
+				</aside>
+			</section>
+
+			<section data-background-image="media/nicolas-thomas-533958-unsplash.jpg">
+				<h3>
+					<img src="media/black_logo.png" class="plain" alt="">
+				</h3>
+				<aside class="notes" data-markdown>
+					- formatting - I like black because it ends all discussions
+					- love it, hate it, use YAPF, go hardcore and use strict pep8
+					- just stop the bickering on that account
+				</aside>
+			</section>
+
+			<section data-background-image="media/nicolas-thomas-533958-unsplash.jpg">
+				<h3>imports sorting</h3>
+				<aside class="notes" data-markdown>
+					- imports sorting
+				</aside>
+			</section>
+
+			<section data-background-image="media/nicolas-thomas-533958-unsplash.jpg">
+				<h3>whitespace</h3>
+				<aside class="notes" data-markdown>
+					- ends of files and trailing whitespaces
+				</aside>
+			</section>
+
+			<section data-background-image="media/nicolas-thomas-533958-unsplash.jpg">
+				<h3>requirements</h3>
+				<aside class="notes" data-markdown>
+					- requirements files
+				</aside>
+			</section>
+
+			<section data-background-image="media/nicolas-thomas-533958-unsplash.jpg">
+				<h3>loose debug statements</h3>
+				<aside class="notes" data-markdown>
+					- loose debug statements in code
+				</aside>
+			</section>
+
+			<section data-background-image="media/nicolas-thomas-533958-unsplash.jpg">
+				<h3>A S T</h3>
+				<aside class="notes" data-markdown>
+					- python's AST (abstract syntax tree)
+					- check if the code is actually valid python
+					- This is great for catching silly syntax errors
+					- but also messed up merge conflicts.
+				</aside>
+			</section>
+
+			<section data-background-image="media/nicolas-thomas-533958-unsplash.jpg">
+				<h3>valid JSON</h3>
+				<aside class="notes" data-markdown>
+					- valid JSON
+				</aside>
+			</section>
+
+			<section data-background-image="media/nicolas-thomas-533958-unsplash.jpg">
+				<h3>valid YAML</h3>
+				<aside class="notes" data-markdown>
+					- valid YAML
+				</aside>
+			</section>
+
+			<section data-background-image="media/nicolas-thomas-533958-unsplash.jpg">
+				<h3>valid Dockerfiles</h3>
+				<aside class="notes" data-markdown>
+					- valid and secure dockerfiles
+				</aside>
+			</section>
+
+			<section data-background-image="media/nicolas-thomas-533958-unsplash.jpg">
+				<h3>valid Terraform files</h3>
+				<aside class="notes" data-markdown>
+					- valid and neatly formated Terraform files
+				</aside>
+			</section>
+
+			<section data-background-image="media/nicolas-thomas-533958-unsplash.jpg">
+				<h3>. . .</h3>
+				<aside class="notes" data-markdown>
+					- And the list goes on and on depending on the project and the team.
+				</aside>
+			</section>
+
+			<section data-background-image="media/nicolas-thomas-533958-unsplash.jpg">
+				<h3>pre-commit run --all-files</h3>
+				<aside class="notes" data-markdown>
+					- And to make things bulletproof, I'm running all those checks in the CI too.
+				</aside>
+			</section>
+
+			<section data-background-image="media/nicolas-thomas-533958-unsplash.jpg">
+				<h3>
+					<img src="media/check_dockerfile.png" class="plain" alt="">
+				</h3>
+				<h3>
+					<img src="media/check_prospector.png" class="plain" alt="">
+				</h3>
+				<aside class="notes" data-markdown>
+					- Make no mistake,
+					- And all those checks, they are not set in stone.
+					- And more can be added if the need arises.
+					- In most of the teams they were added gradually into the project, each after some discussion.
+					- So the check and the rule it enforces is a group decision.
+
+					- You can have all those checks but code ain't magically write itself, will it?
 					- This of course leads us to hiring.
 				</aside>
 			</section>
