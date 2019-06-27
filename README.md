@@ -2,7 +2,7 @@ Talk entitled _On the Edge of Leadership_ presented in one form or another at:
 - [PyCon Balkan conference](https://pyconbalkan.com/speaker/mislav-cimpersak/) held November 17th, 2018
 - [PyCon Slovakia conference](https://2019.pycon.sk/en/speakers.html#speaker_cimpersak) held March 23rd, 2019
 - [DORS/CLUC conference](https://2019.dorscluc.org/talk/6/) held April 18th, 2019
-- [PyCon CZ conference](https://cz.pycon.org/2019/programme/talks/20/#main) held June 15th, 2019
+- [PyCon CZ conference](https://cz.pycon.org/2019/programme/talks/20/#main) held June 15th, 2019 [🎥](https://www.youtube.com/watch?v=3ci5jFykVxo&feature=youtu.be&t=13689)
 
 Slides can be viewed online [here](https://mislavcimpersak.github.io/on-the-edge-of-leadership-talk/).
 
